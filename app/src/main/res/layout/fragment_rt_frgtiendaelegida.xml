@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_tienda.rt_frgtiendaelegida">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/rt_varstrinicioesc31"
+        style="@style/Subtitle_1"
+        />
+
+    <TextView
+        android:id="@+id/rt_ie3txtnombretienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/Subtitle_1"/>
+
+    <TextView
+        android:id="@+id/rt_tietxtnombretienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/rt_varstrinicioesc32"
+        style="@style/Subtitle_1"/>
+
+    <ImageView
+        android:id="@+id/rt_imgtienda"
+        android:layout_width="155dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo1"
+        tools:ignore="ContentDescription"/>
+
+</LinearLayout>

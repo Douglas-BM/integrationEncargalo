@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".tendero.Inicio_sesion.ui.Soporte.sp_frgmenucentroayuda">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="372dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+
+
+        <Button
+            android:id="@+id/btn_so_02_PregFrecuentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/soporte_details_background2"
+            android:drawableLeft="@drawable/sp_iconpreguntas_frecuentes"
+            android:drawableRight="@drawable/sp_iconflecha"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:paddingRight="@dimen/activity_margin"
+            android:text="@string/menu_soporte_centro_de_ayuda_btn_1"
+            android:textAlignment="textStart"
+            tools:text="@string/menu_soporte_centro_de_ayuda_btn_1" />
+
+        <Button
+            android:id="@+id/btn_so_02_VideosDem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/soporte_details_background2"
+            android:drawableLeft="@drawable/sp_icon_videos_demostrativos"
+            android:drawableRight="@drawable/sp_iconflecha"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:paddingRight="@dimen/activity_margin"
+            android:text="@string/menu_soporte_centro_de_ayuda_btn_2"
+            android:textAlignment="textStart"
+            tools:text="@string/menu_soporte_centro_de_ayuda_btn_2" />
+
+        <Button
+            android:id="@+id/btn_so_02_RealizarConsul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/soporte_details_background2"
+            android:drawableLeft="@drawable/sp_iconrealizar_consulta"
+            android:drawableRight="@drawable/sp_iconflecha"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:paddingRight="@dimen/activity_margin"
+            android:text="@string/menu_soporte_centro_de_ayuda_btn_3"
+            android:textAlignment="textStart"
+            tools:text="@string/menu_soporte_centro_de_ayuda_btn_3" />
+    </LinearLayout>
+
+</LinearLayout>

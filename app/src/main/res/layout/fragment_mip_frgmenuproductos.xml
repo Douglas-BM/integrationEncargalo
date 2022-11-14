@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_productos.mip_frgmenuproductos">
+
+    <Button
+        android:id="@+id/mip_mpbtnregistrarproducto"
+        android:drawableStart="@drawable/qr_3x1"
+        android:drawableEnd="@drawable/mas_grande_que_3x_1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_margin"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenuproductos1"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_black"/>
+    <Button
+        android:id="@+id/mip_mpbtnreporteproductos"
+        android:drawableStart="@drawable/reporte_del_producto1"
+        android:drawableEnd="@drawable/mas_grande_que_3x_1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenuproductos2"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_black"/>
+
+</LinearLayout>

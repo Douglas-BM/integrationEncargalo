@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_tienda.mit_frgdatostienda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Nombre de tienda -->
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/Headline_6"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/mit_dtimgtienda"
+            android:background="@drawable/agregar_tienda_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/whitePrimary"
+            android:background="@drawable/containedbtn_blue"
+            style="@style/Body_3"
+            android:text="@string/rt_varstrdatostienda1"
+            />
+
+        <!--Nombre de tienda -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mit_dtedtnombretienda"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:drawableStart="@drawable/icono_perfil"
+                android:padding="@dimen/input_padding"
+                android:hint="@string/rt_varstrdatostienda2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mit_dtedtsitioweb"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:drawableStart="@drawable/link_internet1"
+                android:padding="@dimen/input_padding"
+                android:hint="@string/rt_varstrdatostienda3"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dtedtdescripcion"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            style="@style/textinput"
+            android:drawableStart="@drawable/tienda_de_abarrotes1"
+            android:padding="@dimen/input_padding"
+            android:layout_marginTop="@dimen/input_marginRight"
+            android:hint="@string/rt_varstrdatostienda4"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textColor="@color/whitePrimary"
+            android:background="@drawable/containedbutton_green"
+            android:text="@string/rt_varstrdatostienda5"
+            style="@style/Body_3"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mit_dtedtcorreo"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:drawableStart="@drawable/correo3x1"
+                android:padding="@dimen/input_padding"
+                android:hint="@string/rt_varstrdatostienda6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mit_dtedttelefono"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:drawableStart="@drawable/telefono_3x1"
+                android:padding="@dimen/input_padding"
+                android:hint="@string/rt_varstrdatostienda7"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mit_dtedtubicacion"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:drawableStart="@drawable/ubicacion3x1"
+                android:layout_marginTop="18dp"
+                android:padding="@dimen/input_padding"
+                android:hint="@string/rt_varstrdatostienda8"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/mit_dtbtncontinuar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Contained_button_blue"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/str_btn_continuar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

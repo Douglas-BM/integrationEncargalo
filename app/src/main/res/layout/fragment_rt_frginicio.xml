@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:background="@color/white"
+    android:focusable="true"
+    android:clickable="true"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_tienda.rt_frginicio">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:gravity="center"
+        android:text="@string/rt_varstrinicioesc11"
+        style="@style/Subtitle_1"
+        />
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo1"
+        tools:ignore="ContentDescription"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rt_ierclvtiendas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/rt_ie1btnpuntoventa"
+            android:layout_width="@dimen/btn_type01_width"
+            android:layout_height="wrap_content"
+            android:text="@string/rt_varstrinicioesc12"
+            android:textColor="@color/whitePrimary"
+            android:background="@drawable/containedbtn_blue"
+            />
+    </LinearLayout>
+
+</LinearLayout>

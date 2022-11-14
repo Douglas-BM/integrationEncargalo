@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_productos.mip_frgproductoagregado">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mip_patxtcomentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:gravity="center"
+            android:text="@string/mit_varstrproductoagregado1"
+            android:textSize="@dimen/fab_margin"
+            style="@style/Headline_5"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/mip_patxtcomentario1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            style="@style/Subtitle_1"
+            android:text="@string/str_home"
+            app:layout_constraintTop_toBottomOf="@+id/mip_patxtcomentario"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/mip_pabtnvolver"
+            android:layout_width="@dimen/btn_type02_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="362dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginBottom="108dp"
+            android:background="@drawable/containedbtn_green"
+            android:text="@string/mit_varstrproductoagregado2"
+            style="@style/Contained_button_green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mip_patxtcomentario1"
+            app:layout_constraintVertical_bias="0.562" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

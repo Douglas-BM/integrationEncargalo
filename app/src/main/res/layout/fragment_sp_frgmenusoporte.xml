@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tendero.Inicio_sesion.ui.Soporte.sp_frgmenusoporte" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_centroayuda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconcentro_de_ayuda" />
+
+                <Button
+                    android:id="@+id/btn_centroayuda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/menu_soporte_item_1"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/soporte_details_background"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingRight="@dimen/activity_margin"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_notificaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconnotificacionesnuevo" />
+
+                <Button
+                    android:id="@+id/btn_Notificaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/menu_soporte_item_2"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="10dp"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:background="@drawable/soporte_details_background"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_terminos_condiciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconterminos_y_condiciones_menu" />
+
+                <Button
+                    android:id="@+id/btn_terminois_condiciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/menu_soporte_item_3"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="10dp"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:background="@drawable/soporte_details_background"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_compartir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconcompartir" />
+
+                <Button
+                    android:id="@+id/btn_compartir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/menu_soporte_item_4"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/soporte_details_background"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_Acerca_de"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_icerca_de" />
+
+                <Button
+                    android:id="@+id/btn_acerca_de"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/menu_soporte_item_5"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="10dp"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:background="@drawable/soporte_details_background"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <ImageView
+                    android:id="@+id/ic_CodigoTienda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconcodigotienda" />
+
+                <Button
+                    android:id="@+id/btn_spcodigo_tienda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/soporte_details_background"
+                    android:drawableRight="@drawable/sp_iconflecha"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/menu_soporte_item_7"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ic_cerrar_sesion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/sp_iconcerrar_sesion" />
+
+                <Button
+                    android:id="@+id/btn_cerrar_sesion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cerrar Sesion"
+
+                    android:background="@drawable/soporte_details_background"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

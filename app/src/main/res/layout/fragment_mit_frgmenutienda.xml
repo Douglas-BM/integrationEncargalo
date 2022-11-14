@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_tienda.mit_frgmenutienda">
+
+    <Button
+        android:id="@+id/mit_mtbtnproveedor"
+        android:drawableStart="@drawable/proveedor3x1"
+        android:drawableEnd="@drawable/icon_nextx1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/input_marginRight"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenutienda1"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_blue"/>
+
+    <Button
+        android:id="@+id/mit_mtbtningresostock"
+        android:drawableStart="@drawable/ingreso_de_stock1"
+        android:drawableEnd="@drawable/icon_nextx1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenutienda2"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_blue" />
+
+    <Button
+        android:id="@+id/mit_mtbtneditardatos"
+        android:drawableStart="@drawable/editar_datos_3x1"
+        android:drawableEnd="@drawable/icon_nextx1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/input_marginRight"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenutienda3"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_blue"/>
+
+    <Button
+        android:id="@+id/mit_mtbtncambiartienda"
+        android:drawableStart="@drawable/cambiar_tienda_version_2_1"
+        android:drawableEnd="@drawable/icon_nextx1"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenutienda4"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_blue"/>
+
+    <Button
+        android:id="@+id/mit_mtbtnagregartienda"
+        android:drawableStart="@drawable/agregar_tienda"
+        android:drawableEnd="@drawable/icon_nextx2"
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/input_marginRight"
+        android:padding="@dimen/btn_type05_paddingBottom"
+        android:text="@string/mit_varstrmenutienda5"
+        style="@style/Outlined_button_blue"
+        android:background="@drawable/outline_blue"/>
+
+</LinearLayout>

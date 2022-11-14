@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:orientation="vertical"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_productos.mip_frgregistrarproducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto1"
+            style="@style/Body_1">
+        </TextView>
+        <!-- -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mip_rpedtbusquedanombre"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                style="@style/textinput"
+                android:hint="@string/mit_varstrregistrarproducto2"/>
+
+            <Button
+                android:id="@+id/mip_rpbtnbuscarproducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_icon_browser"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="138dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_icon_agregarimg"
+            tools:ignore="ContentDescription" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto5"
+            android:layout_margin="@dimen/activity_margin"
+            style="@style/Subtitle_2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto6"
+            style="@style/Body_3"
+            android:layout_marginStart="@dimen/activity_margin"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mip_rpedtdescpricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/textinput"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto7"
+            style="@style/textinput"
+            android:layout_marginStart="@dimen/activity_margin"/>
+        <Spinner
+            android:id="@+id/mip_rpedtcategoria"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            style="@style/textinput"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto8"
+            style="@style/Body_3"
+            android:layout_marginStart="@dimen/activity_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_txt_simboloprecio"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mip_rpedtcostoproducto"
+                style="@style/textinput"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mit_varstrregistrarproducto9"
+            style="@style/Body_3"
+            android:layout_marginStart="@dimen/activity_margin"/>
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_txt_simboloprecio"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mip_rpedtprecioventa"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                style="@style/textinput"
+                android:textColor="@color/blackPrimary" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/mip_rpbtnproductopropio"
+                android:layout_width="@dimen/btn_type04_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/containedbtn_green"
+                style="@style/Contained_button_green"
+                android:text="@string/mit_varstrregistrarproducto11"/>
+
+            <Button
+                android:id="@+id/mip_rpbtnagregarproducto"
+                style="@style/Contained_button_blue"
+                android:layout_width="@dimen/btn_type04_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/containedbtn_blue"
+                android:text="@string/mit_varstrregistrarproducto10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
